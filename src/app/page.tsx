@@ -64,6 +64,9 @@ const Page = () => {
         <p><strong>Estado:</strong>{cep.estado}</p>
         <p><strong>Localidade:</strong>{cep.localidade}</p>
         <p><strong>Uf:</strong>{cep.uf}</p>
+        <p><strong>Logradouro:{cep.logradouro}</strong></p>
+        <p><strong>Região</strong>{cep.regiao}</p>
+        <p><strong>DDD:</strong>{cep.ddd}</p>
       </div>
     )}
     </div>
